@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kibru Tesfaye - Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="yes.css" />
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Kibru<span>.</span></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-user"></i> About Me</a></li>
+            <li><a href="#skills"><i class="fas fa-lightbulb"></i> Skills</a></li>
+            <li><a href="#projects"><i class="fas fa-folder-open"></i> Projects</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact Me</a></li>
+        </ul>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home reveal">
+        <!-- Social Icons Above Image -->
+        <div class="home-menu">
+            <a href="https://t.me/@kibocscience"target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://instagram.com/YOUR-INSTAGRAM" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/YOUR-GITHUB" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://facebook.com/YOUR-FACEBOOK" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+
+        <div class="home-content">
+            <img src="photo.jpg" alt="Kibru Tesfaye" class="profile-img" />
+            <h1>Hello, I'm <span>Kibru Tesfaye</span></h1>
+            <p>Computer Science Student</p>
+            <button class="btn" onclick="scrollToSection('contact')">Contact Me</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about reveal">
+        <h2>About Me</h2>
+        <p>My Name is KIBRU TESFAYE i am 3rd year computer science student at Wachemo Univeraity
+            I born in Southern Ethiopian Regional state in Wolayta Zone Bale small town when my age was 6 i joined my primary school 
+           in our compound then after that studied my high school and preparatoy class in soddo town until i join Wachemo university 
+          I am 6th child in my parents and they wish that me to be Database Admistrator in future  but if God will  I am to be Business man in future 
+            thank you 
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills reveal">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">Database </div>
+            <div class="skill-card">SQL</div>
+            <div class="skill-card">PROGRAMMING</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects reveal">
+        <h2>Projects</h2>
+        <div class="project-card">Registration Form</div>
+        <div class="project-card">Dorm management System in Database</div>
+        <div class="project-card"> Personal portfolio</div>
+        <div class ="project-card">Online market Management Sytem</div>
+        <div class ="project-card">Library Management System</div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact reveal">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- JS -->
+    <script src="bad.js"></script>
+</body>
+</html>
